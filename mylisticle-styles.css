@@ -1,0 +1,148 @@
+*{
+	border:border-box;
+	margin:10px;
+	padding:0;
+	font-family: 'Alice', serif;
+
+}
+.wrapper{
+	
+	justify-content:center;
+	margin:0 auto;
+	width:75%;
+	margin-top: 0;
+}
+body main{
+	margin-top: 0;
+}
+
+header{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("images/head.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:250px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-radius: 10px 25px;
+}
+h1{
+	font-family: 'Merriweather', serif;
+	font-size: 50px;
+	text-align:center;
+}
+.top{
+	display:flex;
+	justify-content: center;
+	margin-bottom:30px;
+	margin-top: 0;
+}
+.author{
+	margin-top: 0;
+}
+
+#pic{
+	margin-top:-75px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 100%;
+	justify-content: center;
+	display:flex;
+
+}
+
+.items{
+	margin-bottom: 100px;
+	display:flex;
+	align-items:center;
+	flex-direction: column;
+	padding:10px;
+	border-radius: 30% 60% 20% 40%;
+	background-color: rgba(226, 194, 198, 0.3)
+
+}
+.topic-pic{
+	max-width: 100%;
+	justify-content:center;
+	display:flex;
+}
+img{
+	border-radius:10px;
+	max-width: 100%;
+}
+
+p{
+	text-align:justify;
+}
+
+h2{
+	font-family: 'Merriweather', serif;
+	background-color: white; 
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-radius:10px;
+	display:inline-block;	
+
+}
+h4{
+	font-family: 'Merriweather', serif;
+	text-align: center;
+}
+iframe{
+	max-width:100%;
+	margin:5px;
+}
+
+footer{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color: rgba(150, 172, 183, 0.4);
+	border-radius: 10px 25px;
+	
+}
+p#foot{
+	margin:2px;
+	font-size:10px;
+	line-height: 50px;
+}
+
+a{
+	color:#ffffff;
+	text-decoration: none;
+
+}
+a:hover{
+	color:#e2c2c6;
+	background-color: white;
+}
+
+
+
+
+/* Coolors Exported Palette - coolors.co/
+e2c2c6- light pink
+ffffff- white
+a2999e- mauve
+96acb7- blue
+000000- black */
+
+/* HSL 
+$color1: hsla(353%, 36%, 82%, 1); 
+$color2: hsla(0%, 0%, 100%, 1);
+$color3: hsla(327%, 5%, 62%, 1);
+$color4: hsla(200%, 19%, 65%, 1);
+$color5: hsla(0%, 0%, 0%, 1);
+
+/* RGB 
+$color1: rgba(226, 194, 198, 1);
+$color2: rgba(255, 255, 255, 1);
+$color3: rgba(162, 153, 158, 1);
+$color4: rgba(150, 172, 183, 1);
+$color5: rgba(0, 0, 0, 1);
+*/
